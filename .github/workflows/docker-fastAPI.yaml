@@ -2,7 +2,7 @@ name: Docker CI fastapi-serve
 
 env:
   TAG: v1.0.0
-  DOCKERREPO: seblum/fastAPI-mlflow-serving
+  DOCKERREPO: seblum/fastapi-mlflow-serving
 
 on:
   push:

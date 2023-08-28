@@ -7,7 +7,6 @@ env:
 on:
   push:
     branches: main
-    paths: $PREFIX/$DIRECTORY/**
   pull_request:
     branches: [ main ]
   workflow_dispatch:
